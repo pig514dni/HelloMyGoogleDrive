@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB1CC1BD637589660504635 /* libPods-HelloMyGoogleDrive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBC30424AAD7D29B8F915B0 /* libPods-HelloMyGoogleDrive.a */; };
+		DB6FC0DC1D59ABC400162A13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FC0DB1D59ABC400162A13 /* main.m */; };
+		DB6FC0DF1D59ABC400162A13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FC0DE1D59ABC400162A13 /* AppDelegate.m */; };
+		DB6FC0E21D59ABC400162A13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FC0E11D59ABC400162A13 /* MasterViewController.m */; };
+		DB6FC0E51D59ABC400162A13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6FC0E41D59ABC400162A13 /* DetailViewController.m */; };
+		DB6FC0E81D59ABC400162A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6FC0E61D59ABC400162A13 /* Main.storyboard */; };
+		DB6FC0EA1D59ABC400162A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB6FC0E91D59ABC400162A13 /* Assets.xcassets */; };
+		DB6FC0ED1D59ABC400162A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6FC0EB1D59ABC400162A13 /* LaunchScreen.storyboard */; };
+		DB6FC0F51D59B96800162A13 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB6FC0F41D59B96800162A13 /* 3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CBC30424AAD7D29B8F915B0 /* libPods-HelloMyGoogleDrive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloMyGoogleDrive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5B01DCE9CBDBF19E3836BD /* Pods-HelloMyGoogleDrive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyGoogleDrive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyGoogleDrive/Pods-HelloMyGoogleDrive.debug.xcconfig"; sourceTree = "<group>"; };
+		480F77D72DD48E41EE364E85 /* Pods-HelloMyGoogleDrive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyGoogleDrive.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyGoogleDrive/Pods-HelloMyGoogleDrive.release.xcconfig"; sourceTree = "<group>"; };
+		DB6FC0D71D59ABC400162A13 /* HelloMyGoogleDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMyGoogleDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6FC0DB1D59ABC400162A13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB6FC0DD1D59ABC400162A13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB6FC0DE1D59ABC400162A13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB6FC0E01D59ABC400162A13 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DB6FC0E11D59ABC400162A13 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DB6FC0E31D59ABC400162A13 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DB6FC0E41D59ABC400162A13 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DB6FC0E71D59ABC400162A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB6FC0E91D59ABC400162A13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB6FC0EC1D59ABC400162A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB6FC0EE1D59ABC400162A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6FC0F41D59B96800162A13 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB6FC0D41D59ABC400162A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB1CC1BD637589660504635 /* libPods-HelloMyGoogleDrive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB9E448C44DF828C25F00762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CBC30424AAD7D29B8F915B0 /* libPods-HelloMyGoogleDrive.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1AEF78FA1D2623E0F0A878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B01DCE9CBDBF19E3836BD /* Pods-HelloMyGoogleDrive.debug.xcconfig */,
+				480F77D72DD48E41EE364E85 /* Pods-HelloMyGoogleDrive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB6FC0CE1D59ABC400162A13 = {
+			isa = PBXGroup;
+			children = (
+				DB6FC0D91D59ABC400162A13 /* HelloMyGoogleDrive */,
+				DB6FC0D81D59ABC400162A13 /* Products */,
+				CD1AEF78FA1D2623E0F0A878 /* Pods */,
+				BB9E448C44DF828C25F00762 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB6FC0D81D59ABC400162A13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FC0D71D59ABC400162A13 /* HelloMyGoogleDrive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB6FC0D91D59ABC400162A13 /* HelloMyGoogleDrive */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FC0F41D59B96800162A13 /* 3.jpg */,
+				DB6FC0DD1D59ABC400162A13 /* AppDelegate.h */,
+				DB6FC0DE1D59ABC400162A13 /* AppDelegate.m */,
+				DB6FC0E01D59ABC400162A13 /* MasterViewController.h */,
+				DB6FC0E11D59ABC400162A13 /* MasterViewController.m */,
+				DB6FC0E31D59ABC400162A13 /* DetailViewController.h */,
+				DB6FC0E41D59ABC400162A13 /* DetailViewController.m */,
+				DB6FC0E61D59ABC400162A13 /* Main.storyboard */,
+				DB6FC0E91D59ABC400162A13 /* Assets.xcassets */,
+				DB6FC0EB1D59ABC400162A13 /* LaunchScreen.storyboard */,
+				DB6FC0EE1D59ABC400162A13 /* Info.plist */,
+				DB6FC0DA1D59ABC400162A13 /* Supporting Files */,
+			);
+			path = HelloMyGoogleDrive;
+			sourceTree = "<group>";
+		};
+		DB6FC0DA1D59ABC400162A13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FC0DB1D59ABC400162A13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB6FC0D61D59ABC400162A13 /* HelloMyGoogleDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB6FC0F11D59ABC400162A13 /* Build configuration list for PBXNativeTarget "HelloMyGoogleDrive" */;
+			buildPhases = (
+				07958931C47A9269CDEFFB49 /* 📦 Check Pods Manifest.lock */,
+				DB6FC0D31D59ABC400162A13 /* Sources */,
+				DB6FC0D41D59ABC400162A13 /* Frameworks */,
+				DB6FC0D51D59ABC400162A13 /* Resources */,
+				74339D100D0CC8DEEE4D4AA2 /* 📦 Embed Pods Frameworks */,
+				A5D6AA5D52B0264E9D0A6088 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMyGoogleDrive;
+			productName = HelloMyGoogleDrive;
+			productReference = DB6FC0D71D59ABC400162A13 /* HelloMyGoogleDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB6FC0CF1D59ABC400162A13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "張峻綸";
+				TargetAttributes = {
+					DB6FC0D61D59ABC400162A13 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DB6FC0D21D59ABC400162A13 /* Build configuration list for PBXProject "HelloMyGoogleDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB6FC0CE1D59ABC400162A13;
+			productRefGroup = DB6FC0D81D59ABC400162A13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB6FC0D61D59ABC400162A13 /* HelloMyGoogleDrive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB6FC0D51D59ABC400162A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FC0ED1D59ABC400162A13 /* LaunchScreen.storyboard in Resources */,
+				DB6FC0EA1D59ABC400162A13 /* Assets.xcassets in Resources */,
+				DB6FC0E81D59ABC400162A13 /* Main.storyboard in Resources */,
+				DB6FC0F51D59B96800162A13 /* 3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07958931C47A9269CDEFFB49 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74339D100D0CC8DEEE4D4AA2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyGoogleDrive/Pods-HelloMyGoogleDrive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D6AA5D52B0264E9D0A6088 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyGoogleDrive/Pods-HelloMyGoogleDrive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB6FC0D31D59ABC400162A13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB6FC0DF1D59ABC400162A13 /* AppDelegate.m in Sources */,
+				DB6FC0E21D59ABC400162A13 /* MasterViewController.m in Sources */,
+				DB6FC0DC1D59ABC400162A13 /* main.m in Sources */,
+				DB6FC0E51D59ABC400162A13 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB6FC0E61D59ABC400162A13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6FC0E71D59ABC400162A13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6FC0EB1D59ABC400162A13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6FC0EC1D59ABC400162A13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB6FC0EF1D59ABC400162A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB6FC0F01D59ABC400162A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB6FC0F21D59ABC400162A13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5B01DCE9CBDBF19E3836BD /* Pods-HelloMyGoogleDrive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMyGoogleDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.GoogleDrive-ap102";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB6FC0F31D59ABC400162A13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480F77D72DD48E41EE364E85 /* Pods-HelloMyGoogleDrive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloMyGoogleDrive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.GoogleDrive-ap102";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB6FC0D21D59ABC400162A13 /* Build configuration list for PBXProject "HelloMyGoogleDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6FC0EF1D59ABC400162A13 /* Debug */,
+				DB6FC0F01D59ABC400162A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB6FC0F11D59ABC400162A13 /* Build configuration list for PBXNativeTarget "HelloMyGoogleDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB6FC0F21D59ABC400162A13 /* Debug */,
+				DB6FC0F31D59ABC400162A13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB6FC0CF1D59ABC400162A13 /* Project object */;
+}
